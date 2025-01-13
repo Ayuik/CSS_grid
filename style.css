@@ -1,0 +1,105 @@
+
+
+body {
+    display:block;
+}
+
+#container {
+    display:grid;
+    gap: 10px 10px;
+}
+
+#container > div {
+    border:solid black 2px;
+}
+
+
+.mediumbox {
+    width: 420px;
+    height: 200px;
+}
+
+#box0 {
+    align-content: center;
+}
+
+p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 48px;    
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#box1 {
+    background-image: url(./assets/item1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.smallbox {
+    width: 150px;
+    height: 200px;
+}
+
+#box2 {
+    background-image: url(./assets/item2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#box3 {
+    background-image: url(./assets/item3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#box5 {
+    background-image: url(./assets/item5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#box7 {
+    background-image: url(./assets/item7.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#box8 {
+    background-image: url(./assets/item8.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#box9 {
+    background-image: url(./assets/item9.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#box4{
+    width: 335px;
+    height: 448px;
+    background-image: url(./assets/item4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#box6 {
+    width: 335px;
+    height: 200px;
+    background-image: url(./assets/item6.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#box10 {
+    width: 520px;
+    height: 200px;
+    background-image: url(./assets/item10.png);
+    background-size: cover;
+    background-position: center;
+}
